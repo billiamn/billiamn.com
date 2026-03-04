@@ -1,0 +1,28 @@
+body {
+    font-family: "Walter Turncoat", cursive;
+    font-weight: 400;
+    font-style: normal;
+
+    /* Centering Logic */
+    display: flex;
+    flex-direction: column; /* Stacks the <p> tags vertically */
+    /* justify-content: center; /* Centers vertically */
+    align-items: center;     /* Centers horizontally */
+    min-height: 100vh;      /* Ensures the body takes up the full height of the screen */
+    margin: 0;               /* Removes default browser spacing */
+
+    /* Paper Background Logic */
+    background-image: url('textured-white-paper.jpg');
+    background-size: cover;       /* Scales the image to fill the screen */
+    background-position: center;  /* Centers the texture */
+    background-repeat: no-repeat; /* Prevents the image from tiling */
+    background-attachment: fixed; /* Keeps the background still while scrolling */
+  }
+
+  video {
+    max-width: 90%; /* Keeps it from being wider than the screen */
+    height: auto;   /* Maintains aspect ratio */
+    margin-top: 20px;
+    border: 2.5px solid #000000; /* Optional: gives it a "photo" frame look */
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+}
