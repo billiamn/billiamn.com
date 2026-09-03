@@ -11,14 +11,6 @@ body {
     min-height: 100vh;      /* Ensures the body takes up the full height of the screen */
     margin: 0;               /* Removes default browser spacing */
 
-    /* Paper Background Logic */
-    background-image: url('textured-white-paper.jpg');
-    background-size: cover;       /* Scales the image to fill the screen */
-    background-position: center;  /* Centers the texture */
-    background-repeat: no-repeat; /* Prevents the image from tiling */
-    background-attachment: fixed; /* Keeps the background still while scrolling */
-  }
-
   video {
     max-width: 90%; /* Keeps it from being wider than the screen */
     height: auto;   /* Maintains aspect ratio */
